@@ -1,0 +1,5 @@
+f = open("Дз7.txt").readline()
+f = f.replace("GDE","1").replace("GED","1")
+f = f.replace("G"," ").replace("D"," ").replace("E"," ")
+f = f.split(" ")
+print(len(max(f,key=len)))

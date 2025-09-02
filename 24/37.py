@@ -1,0 +1,5 @@
+f = open("24re_7.txt").readline()
+f = f.replace("GDE","1").replace("GED","1")
+f = f.replace("G"," ").replace("E"," ").replace("D"," ")
+f = f.split(" ")
+print(len(max(f,key=len)))

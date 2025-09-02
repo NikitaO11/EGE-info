@@ -1,0 +1,6 @@
+s = open("24_2_5.txt").readline()
+s = s.replace("O","A").replace("D","C").replace("F","C")
+s = s.replace("CCA","G")
+s =s.replace("C","A")
+s=s.split("A")
+print(len(max(s,key=len)))
